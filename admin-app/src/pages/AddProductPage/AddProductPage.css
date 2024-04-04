@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.add-product-page > div{
+    display: flex;
+    flex-direction: row;
+}
+
+.add-product-page .body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    width: 80vw;
+}
+
+.add-product-page .body form {
+    height: 100%;
+    width: 95%;
+    border : 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
